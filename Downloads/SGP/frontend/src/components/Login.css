@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 400px;
+  width: 500px;
+  /* background-color: #f5f5dc; */
+}
+
+.form {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 200px;
+  margin-top:200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  font-family: 'Cairo', sans-serif;
+}
+
+.input {
+  /* width: calc(100% - 40px); */
+  width: 200px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+  font-family: 'Cairo', sans-serif;
+  color: #333;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3B3632;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 8px;
+  font-family: 'Cairo', sans-serif; /* Ensure button uses Cairo font */
+}
+
+.forgot-username {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #0073e6;
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif; /* Ensure link uses Cairo font */
+}
+
+.forgot-username:hover {
+  text-decoration: underline;
+}
+
+
+.error-message {
+  color: red; 
+  font-size: 14px; 
+  margin-top: 10px; 
+}
+
+/* Add this to your CSS file */
+
+/* Add this to your CSS file */
+
+/* Add this to your CSS file */
+
+.password-container {
+  position: relative;
+  width: 300px;
+}
+
+.password-container .input {
+  padding-right: 0px; /* Space for the icon */
+}
+
+.password-container .password-icon {
+  position: absolute;
+  right: 10px; /* Align the icon to the right of the input field */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer; /* Show pointer cursor when hovering */
+  font-size: 18px; /* Adjust icon size */
+  color: #333; /* Optional: Set icon color */
+}
